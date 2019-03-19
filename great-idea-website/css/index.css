@@ -64,3 +64,130 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.wrapper {
+	width: 876px;
+	margin: 0 auto;
+}
+
+.top-bar {
+	margin: 20px;
+	vertical-align: middle;
+	line-height: 36px;
+}
+
+.navigation-top {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+a {
+	color: #bcbcbc;
+	text-decoration: none;
+}
+
+.navigation-top a {
+	padding: 0px 32px;
+	font-size: 14px;
+	margin: 0 auto;
+	float: left;
+}
+
+.navigation-top a:first-child {
+	padding: 0px 32px 0px 0px;
+}
+
+.logo {
+	margin-left: auto;
+	float: right;
+}
+
+.top-content {
+	padding: 50px 0px 80px;
+	border-bottom: 1px solid black;
+	display: block;
+}
+
+.top-left-content {
+	display: inline-block;
+	width: 49.5%;
+	text-align: center;
+}
+
+.innovate {
+	display: block;
+}
+
+.innovate p {
+	font-size: 70px
+}
+
+.button-div {
+	display: inline-block;
+}
+
+button {
+	background-color: transparent;
+	border: 1px solid black;
+	padding: 5px 40px;
+	font-size: 15px;
+}
+
+.top-right-content {
+	display: inline-block;
+	width: 49.5%;
+	text-align: right;
+	position: relative;
+}
+
+.middle-content {
+	display: block;
+}
+
+.middle-content-top {
+	padding: 50px 0;
+	display: inline-block;
+}
+
+.features {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.about {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.middle-content-bottom {
+	padding: 50px 0px;
+	display: inline-block;
+	border-bottom: 1px solid black;
+}
+
+.services {
+	width: 33%;
+	display: inline-block;
+}
+
+.product {
+	width: 33%;
+	display: inline-block;
+}
+
+.vision {
+	width: 33%;
+	display: inline-block;
+}
+
+.contact {
+	padding: 15px 0px;
+}
+
+.contact-spacing {
+	margin-bottom: 15px;
+}
+
+.copyright {
+	float: right;
+}
